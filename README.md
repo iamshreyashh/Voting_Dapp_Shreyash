@@ -24,6 +24,7 @@ Try running some of the following tasks:
    ```bash
    git clone https://github.com/yourusername/voting-machine.git
    cd voting-machine
+```
 
 1. npx hardhat compile // to compile the smart contracts
 2. npx hardhat ignition deploy ./ignition/modules/VotingMachine.js  // to deploy the cotract
