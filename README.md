@@ -66,6 +66,8 @@ All the test cases (8) are successfully passed !
    d) the against_votes
  All these details were assumed to be enough to show as result.
 
+4. In the structure of a proposal I added few extra fields for the sake of data management and better organization of a proposal and its defiition.
+
 
 
 --> Future upgradations possible:
