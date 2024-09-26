@@ -1,6 +1,11 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0; 
 
+/// @title Voting smart contract
+/// @author Shreyash Tripathi
+/// @notice You can use this contract for voting simulation
+/// @dev All function calls are currently implemented without side effects.
+
 contract VotingMachine {
 
     ///// VARIABLE DECLARATION /////////////////////////////////////////////////////////////////////
@@ -23,6 +28,7 @@ contract VotingMachine {
         uint256 vote_against;           // Counter for votes against the proposal
         mapping(address => bool) Voted_users;  // Mapping to track which users have already voted
     }
+
 
     ///// MAPPINGS /////////////////////////////////////////////////////////////////////
 
