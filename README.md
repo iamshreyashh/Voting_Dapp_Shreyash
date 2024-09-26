@@ -20,15 +20,23 @@ This folder contrains::
 
 Try running some of the following tasks:
 
- Clone the repository:
+ 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/voting-machine.git
    cd voting-machine
 ```
-
-1. npx hardhat compile // to compile the smart contracts
-2. npx hardhat ignition deploy ./ignition/modules/VotingMachine.js  // to deploy the cotract
-3. npx hardhat test // to run the test cases
+2. Compile the smart contract
+```bash
+ npx hardhat compile
+```
+3. Deploy the smart contract
+```bash
+ npx hardhat ignition deploy ./ignition/modules/VotingMachine.js
+```
+4. Run the test cases:
+```bash
+ npx hardhat test
+```
 
 The test file tests the following parameters:
 
@@ -45,7 +53,7 @@ The test file tests the following parameters:
 All the test cases (8) are successfully passed !
 
 
-->-> Assumptions I made:
+--> Assumptions I made:
 
 1. Storing the details of the vote_for and vote_against for each proposal to be withing the struct as to maintain clean accessability and a abstraction layer to other data.
 
